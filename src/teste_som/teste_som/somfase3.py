@@ -16,8 +16,8 @@ class SoundNode(Node):
         self.get_logger().info("Subscriber de som inicializado. Aguardando mensagens...")
 
         # Caminho dos sons na Jetson
-        self.path_valor_acima = "/home/somfase3_ws/src/fase3_pkg/fase3_pkg/som_dentro_do_padrao.mp3"
-        self.path_valor_abaixo = "/home/somfase3_ws/src/fase3_pkg/fase3_pkg/som_fora_do_padrao.mp3"
+        self.path_valor_acima = "/home/ivadessal/somfase3_ws/src/teste_som/teste_som/som_dentro_do_padrao.mp3"
+        self.path_valor_abaixo = "/home/ivadessal/somfase3_ws/src/teste_som/teste_som/som_fora_do_padrao.mp3"
         self.current_process = None
     
     def listener_callback(self, msg):
